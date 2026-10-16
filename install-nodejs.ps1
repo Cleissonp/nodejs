@@ -139,5 +139,3 @@ Write-Host "Execute este script em cada máquina que precisar configurar." -Fore
 
 # Define a política de execução do PowerShell para todos os usuários da máquina.
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
-# 10. Configurar a política de execução do PowerShell para a máquina.
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine -Force
