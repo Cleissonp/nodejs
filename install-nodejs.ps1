@@ -136,3 +136,6 @@ if (Test-Path -LiteralPath $OldOpencode) {
 
 Write-Host "`nInstalação e configuração global concluídas com sucesso!" -ForegroundColor Green
 Write-Host "Execute este script em cada máquina que precisar configurar." -ForegroundColor Green
+
+# Define a política de execução do PowerShell para todos os usuários da máquina.
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
